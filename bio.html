@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>James houston</title>
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ene1oer.css">
+        <script src="https://cdn.userway.org/widget.js" data-account="JUaIVvD3da"></script>
+    </head>
+
+    <body>
+
+        <header>
+            <nav class="nav">
+                <img src="images/logo.png" alt="logo" class="logo">
+
+                <!-- Hamburger Button -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <!-- Nav Links -->
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bio.html" class="selected">About</a></li>
+                    <li><a href="gallery.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <section class="page-hero">
+
+                <img 
+                    src="images/index/hero.avif"
+                    alt="About James Houston"
+                    class="page-hero-image"
+                >
+
+                <div class="page-hero-overlay"></div>
+
+                <div class="page-hero-content">
+
+                    <p class="page-tag">
+                        About Me
+                    </p>
+
+                    <h1>
+                        Passionate About <span>Design & Development</span>
+                    </h1>
+
+                    <p>
+                        Learn more about my background, experience, creative process,
+                        and goals as a frontend developer and designer.
+                    </p>
+
+                </div>
+
+            </section>
+        </header>
+
+        <section class="mainroom">
+
+            <article class="card">
+
+                <img src="images/profile.jpg" alt="Profile Picture">
+
+                <div>
+
+                    <h2>About Me</h2>
+
+                    <p>
+                        I'm James Houston, a web designer and frontend developer
+                        focused on creating responsive websites and modern user
+                        experiences.
+                    </p>
+
+                    <p>
+                        I enjoy working with HTML, CSS, JavaScript, responsive
+                        design, and clean layouts.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </section>
+
+        <footer class="footer">
+
+            <div class="footer-content">
+
+                <!-- Business Info -->
+                <div class="footer-section">
+                    <h3>James Houston</h3>
+                    <p>Email: kiafax123@gmail.com</p>
+                    <p>Phone: (717) 823-7696</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+
+                    <a href="index.html">Home</a>
+                    <a href="bio.html">About</a>
+                    <a href="gallery.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+
+                <!-- Social Media -->
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+
+                    <a href="https://www.facebook.com/james.houston.164824" target="_blank">
+                        Facebook
+                    </a>
+
+                    <a href="https://www.instagram.com/the_jimothin/" target="_blank">
+                        Instagram
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 James Houston All Rights Reserved.</p>
+            </div>
+
+        </footer>
+
+        <script>
+            const hamburger = document.getElementById("hamburger");
+            const navLinks = document.getElementById("navLinks");
+
+            hamburger.addEventListener("click", () => {
+                navLinks.classList.toggle("active");
+                hamburger.classList.toggle("active");
+            });
+        </script>
+    </body>
+</html>
